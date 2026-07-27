@@ -2848,6 +2848,12 @@
             "format": "date-time",
             "description": "Last update time",
             "readOnly": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Creation (import) time",
+            "readOnly": true
           }
         },
         "description": "File metadata"
